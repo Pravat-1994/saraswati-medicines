@@ -1,0 +1,26 @@
+# Dependencies & build output
+node_modules/
+dist/
+dist-*/
+*.tsbuildinfo
+
+# Packages & test artefacts
+*.zip
+e2e-screenshots/
+test-results/
+playwright-report/
+
+# Local env overrides (never commit tokens)
+.env.local
+.env.*.local
+
+# Editors / OS / tools
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Decisions template IDs (kept local)
+ai-agent-known-values.txt
